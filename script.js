@@ -156,7 +156,7 @@ scene.add(upSphere);
 const sphereGeometry = new THREE.TorusGeometry(10.9, 8, 4);
 const sphereMaterial = new THREE.MeshStandardMaterial({ color: 0xffaaaa }); //pink 0xffaaaa
 const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-sphere.position.y = -1.8;
+sphere.position.y = -1.82;
 sphere.position.z = -2.1;
 sphere.position.x = 0;
 sphere.rotation.x = 20;
